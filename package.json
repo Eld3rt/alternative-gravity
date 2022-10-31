@@ -1,0 +1,23 @@
+{
+  "name": "@example/basics",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev --experimental-integrations",
+    "start": "astro dev --experimental-integrations",
+    "build": "astro build --experimental-integrations",
+    "preview": "astro preview --experimental-integrations",
+    "astro": "astro"
+  },
+  "devDependencies": {
+    "@astrojs/mdx": "^0.11.1",
+    "astro": "^1.0.5",
+    "sass": "^1.54.4"
+  },
+  "dependencies": {
+    "astro-netlify-cms": "^0.2.2",
+    "date-fns": "^2.29.3",
+    "netlify-cms-app": "^2.15.72",
+    "netlify-cms-editor-component-figure": "^0.0.1"
+  }
+}
