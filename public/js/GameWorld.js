@@ -71,25 +71,25 @@ class GameWorld {
 			const canvasWidth = 750;
 			const canvasHeight = 400;
 
-			if (obj1.x < obj1.radius) {
-				obj1.vx = Math.abs(obj1.vx) * 1.16;
-				obj1.x = obj1.radius;
-				obj1.isColliding = true;
-			} else if (obj1.x > canvasWidth - obj1.radius) {
-				obj1.vx = -Math.abs(obj1.vx) * 1.16;
-				obj1.x = canvasWidth - obj1.radius;
-				obj1.isColliding = true;
-			}
-			if (obj1.y < obj1.radius) {
-				obj1.vy = Math.abs(obj1.vy) * 1.16;
-				obj1.y = obj1.radius;
-				obj1.isColliding = true;
-			} else if (obj1.y > canvasHeight - obj1.radius) {
-				obj1.vy = -Math.abs(obj1.vy) * 1.16;
-				obj1.y = canvasHeight - obj1.radius;
-				obj1.isColliding = true;
-			}
-		}
+		// 	if (obj1.x < obj1.radius) {
+		// 		obj1.vx = Math.abs(obj1.vx) * 1.16;
+		// 		obj1.x = obj1.radius;
+		// 		obj1.isColliding = true;
+		// 	} else if (obj1.x > canvasWidth - obj1.radius) {
+		// 		obj1.vx = -Math.abs(obj1.vx) * 1.16;
+		// 		obj1.x = canvasWidth - obj1.radius;
+		// 		obj1.isColliding = true;
+		// 	}
+		// 	if (obj1.y < obj1.radius) {
+		// 		obj1.vy = Math.abs(obj1.vy) * 1.16;
+		// 		obj1.y = obj1.radius;
+		// 		obj1.isColliding = true;
+		// 	} else if (obj1.y > canvasHeight - obj1.radius) {
+		// 		obj1.vy = -Math.abs(obj1.vy) * 1.16;
+		// 		obj1.y = canvasHeight - obj1.radius;
+		// 		obj1.isColliding = true;
+		// 	}
+		// }
 
 		for (var i = 0; i < this.gameObjects.length; i++) {
 			obj1 = this.gameObjects[i];
