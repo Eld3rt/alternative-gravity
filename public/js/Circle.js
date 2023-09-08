@@ -18,7 +18,7 @@ class Circle extends GameObject
 	}
 
 	update(secondsPassed){
-		let g = 9.81 * 20;
+		let g = 9.81;
 		const canvasWidth = 750;
 		const canvasHeight = 400;
 		// Apply acceleration
